@@ -7,7 +7,7 @@ function App() {
     <div
       className="App"
       style={{
-        backgroundImage: `url(img/raphael-nogueira-svbDI1Pq30s-unsplash.jpg)`,
+        backgroundImage: `url(img/background.jpg)`,
       }}
     >
       <Gallery />

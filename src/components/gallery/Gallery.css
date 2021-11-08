@@ -12,10 +12,9 @@
   font-size: 5rem;
   line-height: 4rem;
   padding: 56px;
-  background-color: #2a2fb8;
   color: yellow;
   font-weight: bolder;
-  -webkit-text-stroke: 3px #030657;
+  -webkit-text-stroke: 4px #030657;
 }
 
 .main {
@@ -25,7 +24,6 @@
 
 .characterImageLeft {
   flex: 30%;
-  width: 100%;
   height: 880px;
   margin-top: 3rem;
   margin-left: 6rem;
@@ -33,7 +31,6 @@
 }
 .characterImageRight {
   flex: 30%;
-  width: 100%;
   height: 880px;
   margin-top: 5rem;
   margin-left: 8rem;
@@ -108,12 +105,4 @@ input:focus {
 
 #clearBtn {
   cursor: pointer;
-}
-
-@media (max-width: 800px) {
-  .characterImageLeft,
-  .middle,
-  .characterImageRight {
-    flex: 100%;
-  }
 }

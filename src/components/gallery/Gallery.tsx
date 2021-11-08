@@ -57,14 +57,7 @@ const Gallery = () => {
 
   return (
     <section>
-      <div
-        className="header"
-        style={{
-          backgroundImage: `url(img/raphael-nogueira-svbDI1Pq30s-unsplash.jpg)`,
-        }}
-      >
-        STAR WARS CHARACTERS
-      </div>
+      <div className="header">STAR WARS CHARACTERS</div>
       <div className="main">
         <div
           className="characterImageLeft"
