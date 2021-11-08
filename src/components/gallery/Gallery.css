@@ -1,20 +1,20 @@
 .container > div {
   text-align: center;
-  font-size: 30px;
-  line-height: 3rem;
-  margin: 12px auto;
+  font-size: 22px;
+  line-height: 1.8rem;
+  margin: 5px auto;
   width: 100%;
 }
 
 .header {
-  height: 150px;
+  height: 130px;
   width: 100%;
-  font-size: 5rem;
-  line-height: 4rem;
+  font-size: 4rem;
+  line-height: 3rem;
   padding: 56px;
   color: yellow;
   font-weight: bolder;
-  -webkit-text-stroke: 4px #030657;
+  -webkit-text-stroke: 3px #030657;
 }
 
 .main {
@@ -23,17 +23,17 @@
 }
 
 .characterImageLeft {
-  flex: 30%;
-  height: 880px;
+  flex: 20%;
+  height: 540px;
   margin-top: 3rem;
-  margin-left: 6rem;
+  margin-left: 4rem;
   background-repeat: no-repeat;
 }
 .characterImageRight {
-  flex: 30%;
-  height: 880px;
-  margin-top: 5rem;
-  margin-left: 8rem;
+  flex: 20%;
+  height: 540px;
+  margin-top: 4rem;
+  margin-left: 5rem;
   background-repeat: no-repeat;
 }
 .middle {
@@ -43,7 +43,7 @@
 .galleryItem {
   background-color: rgba(2, 4, 64, 0.5);
   color: yellow;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 0.5em 0;
   margin: 0.3em;
   cursor: pointer;
@@ -64,7 +64,7 @@
 }
 
 .searchInputs {
-  margin: 25px auto;
+  margin: 15px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,21 +73,24 @@
 .search input {
   background-color: rgba(255, 255, 255, 0.5);
   border: 0;
-  border-radius: 2px;
+  border-radius: 4px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  font-size: 18px;
-  padding: 25px;
-  height: 30px;
+  font-size: 16px;
+  padding: 20px;
+  height: 20px;
   width: 60%;
 }
 
 .searchIcon {
-  height: 50px;
+  height: 40px;
   width: 50px;
   background-color: rgba(255, 255, 255, 0.5);
   display: grid;
   place-items: center;
+  border-radius: 4px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 input:focus {
